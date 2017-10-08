@@ -11,12 +11,23 @@
     <script src="scripts/github.service.js" charset="utf-8"></script>
     <link rel="stylesheet" href="vendors/bootstrap/bootstrap.css">
     <link rel="stylesheet" href="vendors/bootstrap/bootstrap-theme.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="styles.css" rel="stylesheet">
   </head>
   <body ng-app="myApp">
-    <h1>Hello World</h1>
+      <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="#">Portfolio</a>
+            </div>
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="views/repos/html">GitHub Repos</a></li>
+            </ul>
+          </div>
+        </nav>
     <main ng-view>
 
-    </main>
+   </main>
   </body>
 </html>

@@ -1,0 +1,16 @@
+body {
+    background-color:   #F4E8C1;
+}
+
+#intro {
+    font-family: monospace;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.navbar {
+    background:   #351F39;
+    font-family: fantasy;
+    color:  #4fe8c1;
+  
+};

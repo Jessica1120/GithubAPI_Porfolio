@@ -1,4 +1,12 @@
 <div>
-    <div>{{uc.user.data.name}}</div>
-   <!--- <div>{{uc.repos.data}}</div> -->
+    <div class="row">
+        <div class="col-sm-5"><img src=https://avatars1.githubusercontent.com/u/29389664?v=4></div>
+        <div class="col-sm-6" id="intro">
+            <p>Howdy! I'm {{UC.user.data.name}} from {{UC.user.data.location}}.</p>
+            <p>{{UC.user.data.bio}}</p>
+            <p>I started my GitHub account on June 13, 2017 and have since created {{UC.user.data.public_repos + UC.user.data.total_private_repos}} repositories which showcase my advancement from "What's a git?" to "I'm totally using an API right now!" </p>
+            <p>Please feel free to navigate to my GitHub Repos, and contact me at {{UC.user.data.email}} with any questions. Thanks for stopping by!</p>
+            <div class="col-sm-1"></div>
+        </div>
+    </div>
 </div>
