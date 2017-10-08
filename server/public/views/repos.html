@@ -1,5 +1,9 @@
 <div>
- <div>Here is my Repo Data:
-     {{RC.repos.data.name}}
+ <h1 class="container-fluid" id="list">Public Repo List:</h1>
+     <div>
+         <ul>
+             <li  id="repos" ng-repeat="repo in RC.repos.data"><a href={{repo.html_url}}>{{repo.name}}</a>: Created at {{repo.created_at}}</li>
+         </ul>
+     </div>
  </div>
 </div>

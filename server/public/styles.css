@@ -8,9 +8,19 @@ body {
     padding: 20px;
 }
 
+#list {
+    background-color: #A0C1B8;
+    font-family: fantasy;
+}
+
+#repos {
+    font-family: monospace;
+    padding: 5px;
+}
 .navbar {
     background:   #351F39;
     font-family: fantasy;
     color:  #4fe8c1;
   
 };
+
